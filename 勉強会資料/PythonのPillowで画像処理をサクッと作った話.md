@@ -80,8 +80,6 @@ OpenCVではプロファイルの情報をうまく拾えていないのか、�
 1.  **画像の読み込み:**
 
     ```python
-    from PIL import Image
-
     # 画像ファイルを読み込む
     image = Image.open("image.jpg")
     ```
@@ -100,8 +98,6 @@ OpenCVではプロファイルの情報をうまく拾えていないのか、�
 4.  **フィルタ処理:**
 
     ```python
-    from PIL import ImageFilter
-
     # 画像にぼかしフィルタを適用する
     blurred_image = image.filter(ImageFilter.GaussianBlur(radius=5))
     ```
