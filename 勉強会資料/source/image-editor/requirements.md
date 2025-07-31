@@ -1,0 +1,14 @@
+```
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+Pillow==10.1.0
+pydantic==2.5.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+aiofiles==23.2.1
+numpy==1.26.4
+scikit-image==0.24.0
+scipy==1.13.0
+requests==2.31.0
+```
